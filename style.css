@@ -1,0 +1,224 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(14, 14, 14);
+}
+
+.resume {
+  width: 890px;
+  height: 1220px;
+  margin: 50px auto;
+  border-style: solid;
+  border-width: 0.3px;
+}
+
+.box1 {
+  height: 190px;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+}
+
+.image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  position: absolute;
+  top: 34px;
+  left: 355px;
+  border-width: 7px;
+  border-color: rgb(233, 202, 28);
+  border-style: dotted;
+}
+
+.box4 {
+  height: 60px;
+  width: 53%;
+  background-color: rgb(233, 202, 28);
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  border-radius: 10px;
+}
+
+.box2 {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+}
+
+.box3 {
+  height: 30px;
+  width: 100%;
+  background-color: rgb(148, 137, 137);
+}
+
+.box5 {
+  height: 30px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-width: 0.3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box6 {
+  height: 20px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 27px;
+  font-size: 30px;
+  font-weight: 2px;
+  margin-left: -10px;
+  color: gray;
+}
+.left {
+  width: 49%;
+  height: 73%;
+  float: left;
+  border-right-style: solid;
+  border-width: 0.2px;
+}
+
+.right {
+  width: 49%;
+  height: 73%;
+  float: right;
+}
+
+.pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 20px;
+  border-style: dotted;
+  border-color: rgb(233, 202, 28);
+}
+.profile {
+  display: flex;
+}
+
+.txt {
+  margin-left: 26px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.profile__info {
+  margin-top: -10px;
+  padding-right: 44px;
+}
+
+.tec {
+  text-align: center;
+  font-weight: 20px;
+  margin-top: -20px;
+}
+
+.skillbox {
+  display: flex;
+}
+
+.skillname {
+  height: 100px;
+  width: 40%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+p {
+  margin-top: -14px;
+}
+
+.skillrange {
+  height: 150px;
+  width: 60%;
+}
+
+.skillrange > input[type="range"] {
+  margin-left: -10px;
+  margin-top: -40px;
+  width: 100%;
+  /* -webkit-appearance: none;  */
+  height: 1px;
+}
+
+.skillrange > input[type="range"]::-webkit-slider-runnable-track {
+  background: rgb(248, 190, 39);
+  height: 6px;
+}
+
+.skillbox2 {
+  display: flex;
+}
+.skillname2 {
+  height: 100px;
+  width: 40%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.skillrange2 {
+  height: 80px;
+  width: 60%;
+}
+
+.skillrange2 > input[type="range"] {
+  margin-left: -10px;
+  margin-top: -40px;
+  width: 100%;
+  /* -webkit-appearance: none;  */
+  height: 1px;
+}
+
+.skillrange2 > input[type="range"]::-webkit-slider-runnable-track {
+  background: rgb(248, 190, 39);
+  height: 6px;
+}
+
+.skillrange2 > input[type="range"]::-webkit-slider-thumb {
+  border: 1px solid #0000;
+  height: 8px;
+  width: 8px;
+  -webkit-appearance: none;
+}
+
+.txt1 {
+  display: flex;
+}
+
+.job {
+  font-weight: bold;
+  color: black;
+  margin-left: 25px;
+}
+
+.date {
+  margin-left: 80px;
+}
+h5 {
+  margin-left: 24px;
+  margin-top: -10px;
+}
+
+li {
+  margin-left: 58px;
+  font-size: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 40px;
+}
+
+.skillname2 {
+  height: 80px;
+  width: 40%;
+  text-align: justify;
+  padding-left: 20px;
+  margin-bottom: 2px;
+}
